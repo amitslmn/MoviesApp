@@ -12,6 +12,9 @@ To enjoy this app, you must Subscribe. If you already have an account, just log 
 
 In case you do not have an internet connection, we will use the database to pull saved information on movies.
 
+You can rotate your phone if it is more comfortable :)
+
+
 # Installing
 
 You can install the app throgh APK file.
