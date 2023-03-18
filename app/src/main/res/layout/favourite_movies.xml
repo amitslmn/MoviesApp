@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#000000"
+    app:cardBackgroundColor="#65D3C6"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="7dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/movieImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="264dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/gb_image"
+                    tools:src="@tools:sample/avatars" />
+
+                <TextView
+                    android:id="@+id/movieTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="#51CCBD"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Name"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    app:fontFamily="@font/bigshot_one" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/movieId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="5dp"
+                android:background="#51CCBD"
+                android:text="Id : "
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/petrona" />
+
+            <TextView
+                android:id="@+id/moviePopularity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="5dp"
+                android:background="#51CCBD"
+                android:text="Popularity : "
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/petrona" />
+
+            <TextView
+                android:id="@+id/movieOriginalLanguage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="5dp"
+                android:background="#51CCBD"
+                android:text="Origional Language : "
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/petrona" />
+
+            <TextView
+                android:id="@+id/movieRatings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="5dp"
+                android:background="#51CCBD"
+                android:text="Rating : "
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/petrona" />
+
+            <TextView
+                android:id="@+id/movieReleaseDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="5dp"
+                android:background="#51CCBD"
+                android:text="Release Date : "
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/petrona" />
+
+            <TextView
+                android:id="@+id/movieTotalVote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="5dp"
+                android:background="#51CCBD"
+                android:text="Total Votes : "
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/petrona" />
+
+            <TextView
+                android:id="@+id/movieOverView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="5dp"
+                android:background="#51CCBD"
+                android:text="Overview : "
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/petrona" />
+
+            <Button
+                android:id="@+id/remove_favourite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="Remove From Favourite"
+                android:textColor="#000" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.cardview.widget.CardView>

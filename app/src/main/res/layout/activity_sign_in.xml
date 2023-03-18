@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#65D3C6"
+    android:backgroundTint="#000000"
+    android:backgroundTintMode="screen"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.amit.moviesapp.activities.SignIn">
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/welcome" />
+
+    <EditText
+        android:id="@+id/userNames"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:hint="Username"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:shadowColor="#F3F3F3"
+        android:textColorHint="#595454" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textColorHint="#6C6161" />
+
+    <ImageView
+        android:id="@+id/signIn"
+        android:layout_width="263dp"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        app:srcCompat="@drawable/sign_in" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text="don't have a account?"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/haveAccounts"
+        android:layout_width="263dp"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:textColor="#311B92"
+        android:textSize="16sp"
+        app:srcCompat="@drawable/sign_up" />
+
+</LinearLayout>
