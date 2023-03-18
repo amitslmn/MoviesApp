@@ -6,7 +6,7 @@ MovieApp with API and database.
 
 This is a movies app with API and Room database.
 
-You can search for movies, you can add/remove movies to your favorites, and on each movie, you can enter the movie page and get more information about the movie.
+You can search for movies, you can search for actors, you can add/remove movies to your favorites, and on each movie, you can enter the movie page and get more information about the movie.
 
 To enjoy this app, you must Subscribe. If you already have an account, just log in :)
 
